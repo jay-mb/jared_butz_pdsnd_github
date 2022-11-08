@@ -17,7 +17,9 @@ Trip duration Statistics
 Station Statistics
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 
