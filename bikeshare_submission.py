@@ -219,8 +219,7 @@ def data_viewer(df):
         view_display = input("Do you wish to continue?: ").lower()
         if view_display == 'yes':
             continue
-        else:
-            break           
+        break           
 
     
     
