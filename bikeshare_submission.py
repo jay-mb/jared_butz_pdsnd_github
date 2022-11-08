@@ -29,9 +29,8 @@ def get_filters():
         if city not in valid_cities:
             print('City Not Found- Please Enter a Valid City(Chicago,New York City or Washington): \n')
             continue
-        else: 
-            print('City Found! \n')
-            break
+        print('City Found! \n')
+        break
 
             
     # get user input for month (all, january, february, ... , june)
@@ -40,10 +39,9 @@ def get_filters():
         month = user_input_month.lower()
         if month not in valid_month_filts:
             print('Please enter a valid month \n')
-            continue
-        else: 
-            print('Filtering for {}....'.format(month))
-            break 
+            continue 
+        print('Filtering for {}....'.format(month))
+        break 
     
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True: 
@@ -52,9 +50,8 @@ def get_filters():
         if day not in valid_day_filts:
             print('Please enter a valid day of the week: \n')
             continue
-        else: 
-            print('Filtering for {}....'.format(day))
-            break
+        print('Filtering for {}....'.format(day))
+        break
     
 
     print('-'*40)
